@@ -1,0 +1,16 @@
+.movie-type ul li{
+	list-style: none;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+}
+.movie-type ul li a{
+	text-decoration: none;
+}
+
+.bg{
+	background-color: red;
+}
+body{
+	background-color:#BDCBE8;
+}

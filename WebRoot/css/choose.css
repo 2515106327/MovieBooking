@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color:#BDCBE8;
+}
+.content{
+	width: 800px;
+	height: 800px;
+	margin: 50px auto;
+}
+.content .nav{
+	width: 800px;
+	height: 40px;
+}
+.content .nav .item{
+	font-size: 20px;
+	text-align: center;
+display: inline;
+margin-left: 100px;
+}
+.content .row-id{
+	float: left;
+	width: 20px;
+	height: 600px;
+}
+.content .row-id .item-id{
+	margin-top: 45px;
+}
+.content .row-id .item-id:first-child{
+	margin-top: 0;
+}
+.content .seat{
+	float: right;
+	width: 780px;
+	height: 600px;
+}
+.content .seat .row{
+	margin-top: 34px;
+}
+.content .seat .row:first-child{
+	margin-top: 0;
+}
+.content .seat .row span{
+	display: inline-block;
+	width: 30px;
+	height: 26px;
+	background: url(../images/no.png) no-repeat center;
+	margin-left: 5px;
+}
+.content .seat .row .seat-select{
+	background-image:url(../images/yes.png)
+}
+.content .seat .row .selectable{
+background-image: url(../images/no.png);
+}
+.content .seat .row .select{
+background-image: url(../images/already.png);
+}

@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color:#BDCBE8;
+}
+.content{
+	margin: 50px auto;
+	width: 800px;
+	position: relative;
+}
+.content .log{
+	width: 180px;
+	height: 65px;
+	background: url(../images/log.jpg) no-repeat center;
+	position: absolute;
+}
+.content .introduce{
+	margin-top: 65px;
+	float: left;
+	width: 480px;
+	height: 370px;
+	background: url(../images/introduce.png) no-repeat;
+	position: absolute;
+}
+.content .login{
+	height: 435px;
+	width: 310px;
+	float: right;
+	margin-right: 1px;
+	margin-top: 80px;
+}
+.content .login .input_css {
+	margin: 10px;
+}
+a{
+	text-decoration: none;
+}

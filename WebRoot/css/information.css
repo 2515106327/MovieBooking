@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.content {}
+
+.content .introduce {
+	width: 100%;
+	height: 460px;
+	background-color: #503B73;
+	position: relative;
+}
+
+.content .introduce .ima {
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 450px;
+}
+
+.content .introduce .movie-introduce {
+	position: absolute;
+	width: 300px;
+	height: 310px;
+	margin-top: 150px;
+	margin-left: 693px;
+	color: white;
+}
+
+.content .introduce .buy {
+	background-color: red;
+	width: 300px;
+	height: 40px;
+	line-height: 40px;
+	position: absolute;
+	margin-top: 330px;
+	margin-left: 700px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.content .introduce .estimate {
+	position: absolute;
+	margin-top: 310px;
+	margin-left: 1100px;
+}
+
+.content .movie-information {
+	width: 1100px;
+	height: 800px;
+	margin: 0 auto;
+}
+.content .wrapper {
+	width: 1000px;
+	height: 475px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+.content .wrapper ul{
+	list-style: none;
+}
+.content .tab {
+	border: 1px solid #ddd;
+	border-bottom: 0;
+	height: 36px;
+	width: 320px;
+}
+
+.content .tab li {
+	position: relative;
+	float: left;
+	width: 80px;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	cursor: pointer;
+	border-top: 4px solid #fff;
+}
+
+.content .tab span {
+	position: absolute;
+	right: 0;
+	top: 10px;
+	background: #ddd;
+	width: 1px;
+	height: 14px;
+	overflow: hidden;
+}
+
+.content .products {
+	width: 1002px;
+	border: 1px solid #ddd;
+	height: 476px;
+}
+
+.content .products .main {
+	float: left;
+	display: none;
+}
+
+.content .products .main.selected {
+	display: block;
+}
+
+.content .tab li.active {
+	border-color: red;
+	border-bottom: 0;
+}
